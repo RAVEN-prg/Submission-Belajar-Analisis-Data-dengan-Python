@@ -8,8 +8,8 @@ import streamlit as st
 st.title("Proyek Analisis Data Penyewaan Sepeda")
 
 # Load datasets
-day_df = pd.read_csv("../data/day.csv")
-hour_df = pd.read_csv("../data/hour.csv")
+day_df = pd.read_csv("..\data\day.csv")
+hour_df = pd.read_csv("..\data\hour.csv")
 main_data = pd.read_csv("main_data.csv")
 
 # Convert date columns to datetime
